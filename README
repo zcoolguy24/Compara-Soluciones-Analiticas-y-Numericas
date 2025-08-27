@@ -1,0 +1,25 @@
+Que hace el codigo?
+- Resuelve analíticamente y(t)=e^t
+- Aplica el método de Euler para aproximar la solución.
+- Muestra los valores aproximados y exactos.
+- Grafica ambos resultados para compararlos visualmente.
+
+Lo primero que hace: 
+1. Elegir una ecuación diferencial separable → Usaremos:
+
+dy/dt=y
+
+con la condición inicial y(0)=1.
+
+2. Resolverla analíticamente usando separación de variables:
+
+dy/y=dt ⇒ ln⁡∣y∣=t+C ⇒ y(t)=Ce^t
+
+Usando y(0)=1, obtenemos C=1, así que:
+
+y(t)=e^t
+
+3. Aplicar el método de Euler para aproximar la solución en el intervalo 
+t∈[0,1] con paso h=0.2.
+
+4. Comparar resultados entre la solución exacta y la aproximada.
